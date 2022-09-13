@@ -20,15 +20,6 @@ Category.init(
         len: [1]
       }
     },
-    products: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      references: {
-        model: 'product',
-        key: 'id',
-        
-      }
-    }
   },
   {
     sequelize,

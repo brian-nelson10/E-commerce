@@ -21,10 +21,10 @@ Product.init(
       allowNull: false,
     },
     price: {
-    type: DataTypes.DECIMAL[2,10],
-    allowNull: false,
-    validate: {
-      isDecimal: true
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+      validate: {
+        isDecimal: true
      }
     },
     stock: {
@@ -41,7 +41,7 @@ Product.init(
       }
     }
   },
-  
+
   {
     sequelize,
     timestamps: false,
