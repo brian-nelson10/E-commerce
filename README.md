@@ -11,37 +11,33 @@
 
 # Description
 
-This project was created to create, read, update, and delete data related to each employee straight from the command line. This program uses a MySQL database to store this information and data. Using the inquirer module from node.js, we prompt user for data on employees on their team. When the user chooses to view an option the corresponding table appears in command prompt using the console.table package.
+This project was created to serve as a backend to an ecommerce website.
+Using express API with sequilize we can store data using the MySQL database.
 
 
 # Installation
 
-Prerequisites: [MySQL2](https://www.npmjs.com/package/mysql2) &amp; [Inquirer](https://www.npmjs.com/package/inquirer) &amp; [Console.Table](https://www.npmjs.com/package/console.table)
+Prerequisites: [MySQL2](https://www.npmjs.com/package/mysql2) &amp; [Sequilize](https://www.npmjs.com/package/sequelize) &amp; [Express](https://www.npmjs.com/package/express) &amp; [dotenv](https://www.npmjs.com/package/dotenv) 
 
 * Clone code to your own local repo following the link below. 
 * Using Command Line, head over to the root directory.
-* Install MySQL2, Console.Table and Inquirer using links above.
+* Install MySQL2, Sequilize, Express and dotenv using links above.
 * run npm install
 * run npm start!
 **See Usage for Tutorial!**
 
-**[Install Link](https://github.com/brian-nelson10/Employee-Tracker.git)**
+**[Install Link](https://github.com/brian-nelson10/E-commerce.git)**
 
 # Usage
 
-Run 'npm start' from the command line. 
-You will then be prompted to: 
-View All Employees, Add Employee, Update Employee Role, Delete Employee, View All Roles, Add Role, Delete Role, View All Departments, Add Departments, Delete Department, Or Exit Application. 
+Run 'npm run seed' from the command line. 
+Run 'npm start' 
+Using insomnia you can test all get, post, put, and delete routes. 
+
 See video tutorial below!
 
-**[Video Tutorial](https://drive.google.com/file/d/1DGPmAK5jXLLCVydHFF9x_MeZh9lgiYB4/view)**
+**[Video Tutorial](https://drive.google.com/file/d/1nQvwxVe0hgdS2tQC3RiEU_toSrWJ_wBi/view)**
 
-**Screenshots!**
-![screenshot](images/Screenshot%202022-09-07%20200058.png)
-
-<br>
-
-![screenshot](images/Screenshot%202022-09-07%20194150.png)
 
 # Contribution
 
